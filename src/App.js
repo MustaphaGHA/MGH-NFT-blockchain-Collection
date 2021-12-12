@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import CollectionCard from './Components/CollectionCard';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <Header />
+      <CollectionCard id={0} name={'Dexter'} traits={[{'value':7}]} 
+      image ='https://nftlabs.mypinata.cloud/ipfs/bafkreifk7kpijzrnwc3w2wjbkoffpmdnzxcurirxs6iecw3y7rt6r3qkry' />
     </div>
   );
 }
