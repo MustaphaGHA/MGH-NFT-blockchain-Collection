@@ -35,8 +35,9 @@ margin-right: 20px;
 }
 
 .title{
-    font-size:52px ;
+    font-size:92px ;
     font-weight: 800;
+    flex : 1;
 }
 
 .itemNumber{
